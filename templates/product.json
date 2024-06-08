@@ -27,6 +27,18 @@
             "swatch_shape": "circle"
           }
         },
+        "custom_liquid_iebma8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "custom_liquid_tVyTNz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -56,6 +68,8 @@
         "title",
         "price",
         "variant_picker",
+        "custom_liquid_iebma8",
+        "custom_liquid_tVyTNz",
         "quantity_selector",
         "buy_buttons",
         "description",
