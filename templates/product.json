@@ -30,13 +30,13 @@
         "custom_liquid_iebma8": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "{% if product.metafields.custom.text > 1 -%}\n{% for variable in (1..product.metafields.custom.text) %}\n<p class=\"line-item-property__field\">\n  <label for=\"text-{{ variable }}\">Text {{ variable }}<\/label>\n  <input required class=\"required\" id=\"text-{{ variable }}\" type=\"text\" name=\"properties[Text {{ variable }}]\">\n<\/p>\n{% endfor %}\n{%- endif -%}\n{% if product.metafields.custom.text == 1 -%}\n<p class=\"line-item-property__field\">\n  <label for=\"text-1\">Text<\/label>\n  <input required class=\"required\" id=\"text-1\" type=\"text\" name=\"properties[Text]\">\n<\/p>\n{%- endif -%}"
           }
         },
         "custom_liquid_tVyTNz": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "{% if product.metafields.custom.photo > 1 -%}\n{% for variable in (1..product.metafields.custom.photo) %}\n<p class=\"line-item-property__field\">\n  <label for=\"photo-{{ variable }}\">Photo {{ variable }}<\/label>\n  <input required class=\"required\" id=\"photo-{{ variable }}\" type=\"text\" name=\"properties[Photo {{ variable }}]\">\n<\/p>\n{% endfor %}\n{%- endif -%}\n{% if product.metafields.custom.photo == 1 -%}\n<p class=\"line-item-property__field\">\n  <label for=\"photo-1\">Photo<\/label>\n  <input required class=\"required\" id=\"photo-1\" type=\"text\" name=\"properties[Text]\">\n<\/p>\n{%- endif -%}"
           }
         },
         "quantity_selector": {
