@@ -12,28 +12,29 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Venez découvrir notre nouvelle boutique d'accessoires personnalisés, faits main.",
-            "heading_size": "h2"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify:\/\/collections\/collection-chien-gentil",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "heading": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Venez découvrir notre nouvelle boutique d'accessoires personnalisés, faits main.",
+            "heading_size": "h2"
+          }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "button",
+        "heading"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/thumbnail_IMG_0353.jpg",
