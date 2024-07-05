@@ -36,11 +36,11 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/thumbnail_IMG_8744.jpg",
+        "image": "shopify:\/\/shop_images\/thumbnail_IMG_0353.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_content_position": "top-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
